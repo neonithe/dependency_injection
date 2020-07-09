@@ -1,4 +1,4 @@
-package se.lexicon.data_access;
+package se.lexicon.util;
 
 public interface UserInputService {
 
