@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class Student {
 
+    private static int counter =0;
     private Integer id;
     private String name;
 
@@ -13,7 +14,7 @@ public class Student {
     }
 
     public Student(String name) {
-        this.name = name;
+        this(++counter, name);
     }
 
     public Integer getId() {
